@@ -60,4 +60,7 @@
 
 [Ubuntu系统安装](./Tools/Ubuntu.md)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> cd0eb2eb6ed0f6c261fec1dd8f882a3b1d402741
