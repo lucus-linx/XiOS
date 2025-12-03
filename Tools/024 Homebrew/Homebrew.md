@@ -162,6 +162,8 @@ Homebrew 默认安装路径如下：
 > `/opt/homebrew/bin`。
 > 这也是 macOS ARM 要将 `/opt/homebrew/bin` 添加到 `PATH` 环境变量的原因。
 
+
+
 当执行 `brew uninstall` 时，会将 `/usr/local/Cellar` 下对应包目录删除，对应的链接关系也会移除。 当执行 `brew cleanup` 时，会将 `/usr/local/Cellar` 所有包里的旧版本，只保留最新版本。
 
 
@@ -282,6 +284,16 @@ $ brew cleanup
 # 查看可清理的旧版本包
 $ brew cleanup -n
 ```
+
+
+
+## 7. 卸载某个已经安装的包
+
+```sh
+$ brew uninstall [软件名]
+```
+
+
 
 
 
